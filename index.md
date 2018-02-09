@@ -10,7 +10,6 @@ description: Here is Document site of EC-CUBE. We provide all information such a
 
 What is EC-CUBE 3???
 
-
 # Quick Start
 - [システム要件](/3.0/quick/requirement.html)
 - [インストール方法](/3.0/quick/install.html)
