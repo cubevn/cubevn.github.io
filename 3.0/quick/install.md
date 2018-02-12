@@ -85,3 +85,4 @@ php composer.phar create-project ec-cube/ec-cube ec-cube "^3.0"
 - Webインストーラーにアクセスする
 
 `http://{インストール先URL}/install.php`にアクセスし、表示されるインストーラーの指示にしたがってインストールしてください。
+

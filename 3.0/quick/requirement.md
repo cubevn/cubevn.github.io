@@ -37,3 +37,4 @@ Administration screen and Standard front template
 |Mac (From OS X)|Safari latest|
 |iOS (From 7)|Safari latest|
 |Android (From 4.1)| Standard browser latest|
+
