@@ -3,7 +3,6 @@ title: System Requirements
 keywords: sample homepage
 tags: [quickstart, getting_started]
 sidebar: home_sidebar
-permalink: quickstart_requirement
 ---
 
 
