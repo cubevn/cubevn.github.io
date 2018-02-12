@@ -3,7 +3,6 @@ title: インストール方法
 keywords: howto install 
 tags: [quickstart, getting_started]
 sidebar: home_sidebar
-permalink: quickstart_install
 forder: quickstart
 ---
 
