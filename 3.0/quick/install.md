@@ -1,52 +1,53 @@
 ---
-title: インストール方法
+title: Installation
 keywords: howto install 
 tags: [quickstart, getting_started]
 sidebar: home_sidebar
 forder: quickstart
 ---
 
-## 事前準備
+## Advanced preparation
 
-- 予めMySQLもしくはPostgreSQLでデータベースを作成しておいて下さい。
-- サイトのDocumentRootが、EC-CUBEのhtmlのフォルダとなるように設定してください  
+- Prepare database with MySQL or PostgreSQL in advance.
+- Set DocumentRoot of the site to be the EC-CUBE html folder
 
-※DocumentRootが変更できない場合は、トップページのURLは「http://サイトURL/html/」となります。  
-※ただし、3.0.11以降では[こちらの手順](/quickstart_remove-html)を行うことで、URLからhtmlを無くした状態でインストールできるようになりました。
+※If DocumentRoot can not be changed, Top page URL will be http://サイトURL/html/
+
+※However, from 3.0.11 you can install without html URL by doing this step [こちらの手順](/quickstart_remove-html)
 
 
-## インストール方法
+## How to install
 
-EC-CUBEのインストールは、以下の2種類の方法があります。
+There are 2 ways to install EC - CUBE as follows:
 
-- インストールスクリプトでインストールする
-- Webインストーラでインストールする
+- Install by install script
+- Install by web installer
 
-## インストールスクリプトを利用したインストール方法
+## Install by install script
 
-`eccube_install.php`で、コマンドラインからインストールすることができます。
+You can install by command line `eccube_install.php`.
 
-以下のように実行してください。
+Please execute as below
 
 `php eccube_install.php [mysql|pgsql|sqlite3] [none] [options]`
 
-以下はコマンドの実行例です。
+The following are examples of command execution
 
-PostgreSQLの場合
+In case of PostgreSQL
 
 ```
 php eccube_install.php pgsql
 ```
 
-MySQLの場合
+In case of MySQL
 
 ```
 php eccube_install.php mysql
 ```
 
-データベースのホストやデータベース名を変更する場合は、環境変数で指定します。
+When you want to change host and name of database, you need to specify it by environment variables. 
 
-以下は、DBSERVERとDBNAMEを設定する例です。
+The following are examples of setting DBSERVER and DBNAME
 
 ```
 export DBSERVER=xxx.xxx.xxx.xxx
@@ -55,33 +56,34 @@ export DBNAME=eccube_dev_db
 php eccube_install.php mysql
 ```
 
-その他の設定やオプションは、`--help`で確認することができます
+About other settings and options, you can refer with `--help`
 
 ```
 php eccube_install.php --help
 ```
 
-インストール完了後、 `http://{インストール先URL}/admin`にアクセス
-EC-CUBEの管理ログイン画面が表示されればインストール成功です。以下のID/Passwordにてログインしてください。
+When installation completed, access to `http: // {installation URL} / admin`
+
+If the EC-CUBE administration login screen is displayed, the installation is successful. Please login with the following ID / Password:
 
 `ID: admin PW: password`
 
-また、後述の Webインストーラーは不要なので削除してください。
+Because Web installer I described below is not neccessary anymore, you can delete it 
 
 ```
 rm html/install.php
 ```
 
-## Webインストーラーを利用したインストール方法
+## Install by web installer
 
-- composerを利用してソースコードを取得する
+- Get source code by using composer
 
 ```
 curl -sS https://getcomposer.org/installer | php
 php composer.phar create-project ec-cube/ec-cube ec-cube "^3.0"
 ```
 
-- Webインストーラーにアクセスする
+- Access the web installer
 
-`http://{インストール先URL}/install.php`にアクセスし、表示されるインストーラーの指示にしたがってインストールしてください。
+Access to `http://{インストール先URL}/install.php` and follow the instructions of the displayed installer to install
 
