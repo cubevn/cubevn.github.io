@@ -3,7 +3,6 @@ title: プロキシサーバの設定
 keywords: howto proxy 
 tags: [quickstart, getting_started]
 sidebar: home_sidebar
-permalink: quickstart_proxy
 summary : プロキシサーバの設定について解説します。
 ---
 
