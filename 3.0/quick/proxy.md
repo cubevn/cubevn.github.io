@@ -1,24 +1,24 @@
 ---
-title: プロキシサーバの設定
+title: Setting Proxy server
 keywords: howto proxy 
 tags: [quickstart, getting_started]
 sidebar: home_sidebar
-summary : プロキシサーバの設定について解説します。
+summary : Explanation about setting proxy server
 ---
 
-リバースプロキシ、ロードバランサーを利用してサイトを構成する場合の設定方法について解説します。
+I would like to explain about how to set sites using reverse proxy and load balancer.
 
-この設定を行うことで、EC-CUBEへのリクエストをリバースプロキシ・ロードバランサーからのリクエストとして扱うようになります。
+By this setting, requests of EC-Cube will be treated as requests from reverse proxy and load balancer.
 
 EC-CUBEのセキュリティオプションで「サイトへのアクセスを、SSL（https）経由に制限します」を有効してリダイレクトループが発生する場合は、この設定を行うことで回避できるようになります。
 
 
 ![サイト構成の例](/images/proxy_settings/network_diagram.png)  
 
-## 対象
-EC-CUBE 3.0.14 以降
+## Objective
+From EC-CUBE 3.0.14
 
-## インストール時の設定方法
+## How to set when installing
 
 インストールの「サイトの設定」ページ  
 `オプションを表示 > ロードバランサー、プロキシサーバの設定` で、Proxyサーバーの設定ができます。
@@ -35,7 +35,7 @@ EC-CUBE 3.0.14 以降
 
 ## config.yml
 
-インストール後は、config.ymlを編集することで設定を変更できます。
+After installing, we can change by editing confif.yml
 
 ```yaml
 [app/config/eccube/config.yml]
@@ -53,11 +53,11 @@ trusted_proxies
 - 「ロードバランサー、プロキシサーバのIP」オプション。
 - EC-CUBE自身からのサブリクエストを処理する必要があるため、ローカルループバックアドレスは削除しないでください。
 
-## 制限事項
+## Restriction
 
 EC-CUBEがプロキシサーバからのリクエストを適切に処理するためには、プロキシサーバがリクエストに`X-Forwarded-*`ヘッダーを付与している必要があります。
 
-## 参考情報
+## Reference
 
 Symfony - How to Configure Symfony to Work behind a Load Balancer or a Reverse Proxy  
 [http://symfony.com/doc/2.7/request/load_balancer_reverse_proxy.html](http://symfony.com/doc/2.7/request/load_balancer_reverse_proxy.html)
