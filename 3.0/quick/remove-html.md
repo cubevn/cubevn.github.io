@@ -1,5 +1,5 @@
 ---
-title: インストール時にURLからhtmlを無くす
+title: Remove html from URL when installing インストール時にURLからhtmlを無くす
 keywords: sample homepage
 tags: [quickstart, getting_started]
 sidebar: home_sidebar
