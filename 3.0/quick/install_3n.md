@@ -88,5 +88,5 @@ cd ec-cube
 bin/console server:run
 ```
 
-Account to URL `http://127.0.0.1:8000`, the web installer will be displayed. Install according to the instructions.
+Access to URL `http://127.0.0.1:8000`, the web installer will be displayed. Install according to the instructions.
 
