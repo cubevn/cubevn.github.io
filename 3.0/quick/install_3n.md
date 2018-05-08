@@ -75,15 +75,18 @@ rm html/install.php
 ```
 
 ## Install by web installer
-
-- Get source code by using composer
+As a prerequisite, you need to [install Composer](https://getcomposer.org/download/)
 
 ```
-curl -sS https://getcomposer.org/installer | php
-php composer.phar create-project ec-cube/ec-cube ec-cube "^3.0"
+php composer.phar create-project --no-scripts ec-cube/ec-cube ec-cube "dev-experimental/sf"
 ```
 
-- Access the web installer
+Change directory to folder ec-cube, execute command `bin/console server:run`, the build-in web server will launches.
 
-Access to `http://{インストール先URL}/install.php` and follow the instructions of the displayed installer to install
+```
+cd ec-cube
+bin/console server:run
+```
+
+Account to URL `http://127.0.0.1:8000`, the web installer will be displayed. Install according to the instructions.
 
