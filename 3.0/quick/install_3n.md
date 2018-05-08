@@ -6,72 +6,56 @@ sidebar: home_sidebar
 forder: quickstart
 ---
 
-## Advanced preparation 3n
-
-- Prepare database with MySQL or PostgreSQL in advance.
-- Set DocumentRoot of the site to be the EC-CUBE html folder
-
-※If DocumentRoot can not be changed, Top page URL will be http://サイトURL/html/
-
-※However, from 3.0.11 you can install without html URL by doing this step [こちらの手順](/quickstart_remove-html)
-
 
 ## How to install
 
 There are 2 ways to install EC - CUBE as follows:
 
-- Install by install script
+- Install by command line
 - Install by web installer
 
-## Install by install script
+## Install by command line
 
-You can install by command line `eccube_install.php`.
-
-Please execute as below
-
-`php eccube_install.php [mysql|pgsql|sqlite3] [none] [options]`
-
-The following are examples of command execution
-
-In case of PostgreSQL
+As a prerequisite, you need to [install Composer](https://getcomposer.org/download/)
 
 ```
-php eccube_install.php pgsql
+php composer.phar create-project ec-cube/ec-cube ec-cube "dev-experimental/sf"
 ```
 
-In case of MySQL
+In the above example, SQLite 3 is selected for database.
+
+Change directory to folder ec-cube, execute command `bin/console server:run`, the build-in web server will launches.
 
 ```
-php eccube_install.php mysql
+cd ec-cube
+bin/console server:run
 ```
 
-When you want to change host and name of database, you need to specify it by environment variables. 
+Access to URL `http://127.0.0.1:8000/admin`, if EC-CUBE admin login screen is displayed that mean installation is successful.
 
-The following are examples of setting DBSERVER and DBNAME
-
+Login with ID/Password as follows:
 ```
-export DBSERVER=xxx.xxx.xxx.xxx
-export DBNAME=eccube_dev_db
-
-php eccube_install.php mysql
+ID: admin PW: password
 ```
 
-About other settings and options, you can refer with `--help`
+To quit, press `Ctrl + C`
 
+### When you want to change database type
+After install, execute command `bin/console eccube:install` , setting `Database Url` as follows:
 ```
-php eccube_install.php --help
+## for MySQL
+mysql://<user>:<password>@<host>/<database name>
+
+## for PostgreSQl
+postgres://<user>:<password>@<host>/<database name>
 ```
 
-When installation completed, access to `http: // {installation URL} / admin`
-
-If the EC-CUBE administration login screen is displayed, the installation is successful. Please login with the following ID / Password:
-
-`ID: admin PW: password`
-
-Because Web installer I described below is not neccessary anymore, you can delete it 
-
+Execute 4 commands as follows:
 ```
-rm html/install.php
+php bin/console doctrine:database:create
+php bin/console doctrine:schema:create
+php bin/console doctrine:schema:update --force
+php bin/console eccube:fixtures:load
 ```
 
 ## Install by web installer
