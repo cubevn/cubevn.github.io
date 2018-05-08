@@ -13,7 +13,7 @@ What is EC-CUBE 3???
 # Quick Start
 - [システム要件](/3.0/quick/requirement.html)
 - [インストール方法](/3.0/quick/install.html)
-- [インストール方法3.n](/3.0/quick/install_3n.html)
+- [インストール方法(3.n)](/3.0/quick/install_3n.html)
 - [プロキシサーバの設定](/3.0/quick/proxy.html)
 - [インストール時にURLからhtmlを無くす](/3.0/quick/remove-html.html)
 - [EC-CUBE本体のバージョンアップ](/3.0/quick/update.html)
