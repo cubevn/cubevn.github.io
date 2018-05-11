@@ -8,12 +8,11 @@ description: Here is Document site of EC-CUBE. We provide all information such a
 
 # I. EC-CUBE 3
 ## I.1. Glance
-- [システム要件](/ec-cube/3.0/glance/requirement.html)
-- [インストール方法](/ec-cube/3.0/glance/install.html)
-- [インストール方法(3.n)](/ec-cube/3.0/glance/install_3n.html)
-- [プロキシサーバの設定](/ec-cube/3.0/glance/proxy.html)
-- [インストール時にURLからhtmlを無くす](/ec-cube/3.0/glance/remove-html.html)
-- [EC-CUBE本体のバージョンアップ](/ec-cube/3.0/glance/update.html)
+- [Requirement](/ec-cube/3.0/glance/requirement.html)
+- [Install](/ec-cube/3.0/glance/install.html)
+- [Proxy](/ec-cube/3.0/glance/proxy.html)
+- [Remove](/ec-cube/3.0/glance/remove-html.html)
+- [Update](/ec-cube/3.0/glance/update.html)
 
 ### I.1.a. News
 ### I.1.b. Techniques
@@ -23,22 +22,21 @@ description: Here is Document site of EC-CUBE. We provide all information such a
 
 ## I.2. Document
 #### I.2.a. Getting Started
-#### I.2.b. Guides
-The [Guide](/ec-cube/3.0/document/guides/index.html) is helpful while wanting to adapt EC-CUBE to your personal business needs.
+#### I.2.b. [Guides](/ec-cube/3.0/document/guides/index.html)
 
-- [Customizing Models](/ec-cube/3.0/document/guides/model.html)
-- [Customizing Forms](/ec-cube/3.0/document/guides/form.html)
-- [Customizing Repositories](/ec-cube/3.0/document/guides/repository.html)
-- [Customizing Factories](/ec-cube/3.0/document/guides/factory.html)
-- [Customizing Controllers](/ec-cube/3.0/document/guides/controller.html)
-- [Customizing Validation](/ec-cube/3.0/document/guides/validation.html)
-- [Customizing Menus](/ec-cube/3.0/document/guides/menu.html)
-- [Customizing Templates](/ec-cube/3.0/document/guides/template.html)
-- [Customizing Translations](/ec-cube/3.0/document/guides/translation.html)
-- [Customizing Flashes](/ec-cube/3.0/document/guides/flash.html)
-- [Customizing State Machines](/ec-cube/3.0/document/guides/state_machine.html)
-- [Customizing Grids](/ec-cube/3.0/document/guides/grid.html)
-- [How to create a plugin?](/ec-cube/3.0/document/guides/plugins/creating_plugin.html)
+- [Models](/ec-cube/3.0/document/guides/model.html)
+- [Forms](/ec-cube/3.0/document/guides/form.html)
+- [Repositories](/ec-cube/3.0/document/guides/repository.html)
+- [Factories](/ec-cube/3.0/document/guides/factory.html)
+- [Controllers](/ec-cube/3.0/document/guides/controller.html)
+- [Validation](/ec-cube/3.0/document/guides/validation.html)
+- [Menus](/ec-cube/3.0/document/guides/menu.html)
+- [Templates](/ec-cube/3.0/document/guides/template.html)
+- [Translations](/ec-cube/3.0/document/guides/translation.html)
+- [Flashes](/ec-cube/3.0/document/guides/flash.html)
+- [State Machines](/ec-cube/3.0/document/guides/state_machine.html)
+- [Grids](/ec-cube/3.0/document/guides/grid.html)
+- [Plugin?](/ec-cube/3.0/document/guides/plugins/creating_plugin.html)
 
 ## I.3. Books & References
 ### I.3.a. Books
@@ -47,6 +45,8 @@ The [Guide](/ec-cube/3.0/document/guides/index.html) is helpful while wanting to
 
 # II.EC-CUBE 3n
 ## II.1. Glance
+- [Install](/ec-cube/3.0/glance/install_3n.html)
+
 ### II.1.a. News
 ### II.1.b. Techniques
 ### II.1.c. Business
