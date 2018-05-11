@@ -8,22 +8,28 @@ description: Here is Document site of EC-CUBE. We provide all information such a
 
 # I. EC-CUBE 3
 ## I.1. Glance
-- [Requirement](/ec-cube/3.0/glance/requirement.html)
-- [Install](/ec-cube/3.0/glance/install.html)
-- [Proxy](/ec-cube/3.0/glance/proxy.html)
-- [Remove](/ec-cube/3.0/glance/remove-html.html)
-- [Update](/ec-cube/3.0/glance/update.html)
+- [E-commerce](/ec-cube/3.0/glance/ecommerce.html)
+- [Open Source](/ec-cube/3.0/glance/opensource.html)
+- [Roadmap](/ec-cube/3.0/glance/roadmap.html)
+- [Demo](/ec-cube/3.0/glance/demo.html)
+- [Download](/ec-cube/3.0/glance/download.html)
+- [Trademark & Licenses](/ec-cube/3.0/glance/trademark.html)
 
 ### I.1.a. News
 ### I.1.b. Techniques
+- [Requirement](/ec-cube/3.0/glance/requirement.html)
+
 ### I.1.c. Business
 ### I.1.d. Case study
 ### I.1.e. Testimonial
 
 ## I.2. Document
 #### I.2.a. Getting Started
-#### I.2.b. [Guides](/ec-cube/3.0/document/guides/index.html)
+- [Install](/ec-cube/3.0/glance/install.html)
+- [Remove](/ec-cube/3.0/glance/remove-html.html)
+- [Update](/ec-cube/3.0/glance/update.html)
 
+#### I.2.b. [Guides](/ec-cube/3.0/document/guides/index.html)
 - [Models](/ec-cube/3.0/document/guides/model.html)
 - [Forms](/ec-cube/3.0/document/guides/form.html)
 - [Repositories](/ec-cube/3.0/document/guides/repository.html)
@@ -36,11 +42,13 @@ description: Here is Document site of EC-CUBE. We provide all information such a
 - [Flashes](/ec-cube/3.0/document/guides/flash.html)
 - [State Machines](/ec-cube/3.0/document/guides/state_machine.html)
 - [Grids](/ec-cube/3.0/document/guides/grid.html)
+- [Proxy](/ec-cube/3.0/glance/proxy.html)
 - [Plugin?](/ec-cube/3.0/document/guides/plugins/creating_plugin.html)
 
 ## I.3. Books & References
 ### I.3.a. Books
 [The Cookbook](/ec-cube/3.0/cookbook/index.html) is a collection of specific solutions for specific needs.
+
 
 
 # II.EC-CUBE 3n
@@ -58,6 +66,10 @@ description: Here is Document site of EC-CUBE. We provide all information such a
 #### II.2.b. Guides
 ## II.3. Books & References
 
+
+# III.Community
+## III.a Meetup
+## III.b Support
 
 <!--
 # The REST API Reference
