@@ -47,7 +47,7 @@ title: 管理画面項目の追加
 
 ---
 
-![管理画面会員登録](images/cookbook1-view-cusomer-new.png)
+![管理画面会員登録](../../../images/cookbook1-view-cusomer-new.png)
 
 ---
 
@@ -445,7 +445,7 @@ class Version20160616155605 extends AbstractMigration
 
   ---
 
-  ![マイグレーションでカラム追加されたテーブル](images/cookbook1-view-cusomer-add-column.png)
+  ![マイグレーションでカラム追加されたテーブル](../../../images/cookbook1-view-cusomer-add-column.png)
 
   ---
 
@@ -682,7 +682,7 @@ $find -type f ｜ xargs egrep -n "Customer"
 
 ---
 
-![追加項目表示確認](images/cookbook1-view-cusomer-add-column-viewcheck.png)
+![追加項目表示確認](../../../images/cookbook1-view-cusomer-add-column-viewcheck.png)
 
 ---
 
@@ -692,7 +692,7 @@ $find -type f ｜ xargs egrep -n "Customer"
 
 ---
 
-![追加項目表示確認](images/cookbook1-view-cusomer-add-column-insertcheck.png)
+![追加項目表示確認](../../../images/cookbook1-view-cusomer-add-column-insertcheck.png)
 
 ---
 

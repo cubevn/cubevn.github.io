@@ -43,7 +43,7 @@ title: 管理機能ブロックを利用したJavaScriptの追加
 
 ---
 
-![新規入力ボタン](images/cookbook2-view-block-insert.png)
+![新規入力ボタン](../../../images/cookbook2-view-block-insert.png)
 
 ---
 
@@ -53,13 +53,13 @@ title: 管理機能ブロックを利用したJavaScriptの追加
 
 ---
 
-![トラッキングタグ](images/cookbook2-view-tracking.png)
+![トラッキングタグ](../../../images/cookbook2-view-tracking.png)
 
 ---
 
 ---
 
-![トラッキングタグ](images/cookbook2-view-tracking-copy.png)
+![トラッキングタグ](../../../images/cookbook2-view-tracking-copy.png)
 
 ---
 
@@ -77,7 +77,7 @@ title: 管理機能ブロックを利用したJavaScriptの追加
 
 ---
 
-![タグブロックレイアウト完了](images/cookbook2-view-tracking-layout.png)
+![タグブロックレイアウト完了](../../../images/cookbook2-view-tracking-layout.png)
 
 ---
 
@@ -87,7 +87,7 @@ title: 管理機能ブロックを利用したJavaScriptの追加
 
 ---
 
-![ユーザー画面タグ確認](images/cookbook2-view-tracking-layout-front-head.png)
+![ユーザー画面タグ確認](../../../images/cookbook2-view-tracking-layout-front-head.png)
 
 ---
 
@@ -111,7 +111,7 @@ title: 管理機能ブロックを利用したJavaScriptの追加
 
 ---
 
-![Analiticsレポートトップ](images/cookbook2-view-analitics-top.png)
+![Analiticsレポートトップ](../../../images/cookbook2-view-analitics-top.png)
 
 ---
 
@@ -119,7 +119,7 @@ title: 管理機能ブロックを利用したJavaScriptの追加
 
 ---
 
-![アクティブユーザー確認](images/cookbook2-view-analitics-realtime-top.png)
+![アクティブユーザー確認](../../../images/cookbook2-view-analitics-realtime-top.png)
 
 ---
 
@@ -133,7 +133,7 @@ title: 管理機能ブロックを利用したJavaScriptの追加
 
 ---
 
-![アクティブユーザー確認](images/cookbook2-view-analitics-realtime-target.png)
+![アクティブユーザー確認](../../../images/cookbook2-view-analitics-realtime-target.png)
 
 ---
 

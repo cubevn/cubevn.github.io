@@ -287,7 +287,7 @@ class Version20160607155514 extends AbstractMigration
 
 ---
 
-![bbsテーブル](images/img-tutorial6-create-table.png)
+![bbsテーブル](../../../images/img-tutorial6-create-table.png)
 
 ---
 

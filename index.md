@@ -6,46 +6,58 @@ description: Here is Document site of EC-CUBE. We provide all information such a
 
 ---
 
-# EC-CUBE 3
+# I. EC-CUBE 3
+## I.1. Glance
+- [システム要件](/3.0/glance/requirement.html)
+- [インストール方法](/3.0/glance/install.html)
+- [インストール方法(3.n)](/3.0/glance/install_3n.html)
+- [プロキシサーバの設定](/3.0/glance/proxy.html)
+- [インストール時にURLからhtmlを無くす](/3.0/glance/remove-html.html)
+- [EC-CUBE本体のバージョンアップ](/3.0/glance/update.html)
 
-What is EC-CUBE 3???
+### I.1.a. News
+### I.1.b. Techniques
+### I.1.c. Business
+### I.1.d. Case study
+### I.1.e. Testimonial
 
-# Quick Start
-- [システム要件](/3.0/quick/requirement.html)
-- [インストール方法](/3.0/quick/install.html)
-- [インストール方法(3.n)](/3.0/quick/install_3n.html)
-- [プロキシサーバの設定](/3.0/quick/proxy.html)
-- [インストール時にURLからhtmlを無くす](/3.0/quick/remove-html.html)
-- [EC-CUBE本体のバージョンアップ](/3.0/quick/update.html)
+## I.2. Document
+#### I.2.a. Getting Started
+#### I.2.b. Guides
+The [Guide](/3.0/document/guides/index.html) is helpful while wanting to adapt EC-CUBE to your personal business needs.
 
-# The Book
+- [Customizing Models](/3.0/document/guides/model.html)
+- [Customizing Forms](/3.0/document/guides/form.html)
+- [Customizing Repositories](/3.0/document/guides/repository.html)
+- [Customizing Factories](/3.0/document/guides/factory.html)
+- [Customizing Controllers](/3.0/document/guides/controller.html)
+- [Customizing Validation](/3.0/document/guides/validation.html)
+- [Customizing Menus](/3.0/document/guides/menu.html)
+- [Customizing Templates](/3.0/document/guides/template.html)
+- [Customizing Translations](/3.0/document/guides/translation.html)
+- [Customizing Flashes](/3.0/document/guides/flash.html)
+- [Customizing State Machines](/3.0/document/guides/state_machine.html)
+- [Customizing Grids](/3.0/document/guides/grid.html)
+- [How to create a plugin?](/3.0/document/guides/plugins/creating_plugin.html)
 
-The Developer’s guide to leveraging the flexibility of EC-CUBe.
-Here you will find all the concepts used in the EC-CUBE. [The Book](/3.0/book/index.html) helps to understand how EC-CUBE works.
-
-# The Customization Guide
-The [Customization Guide](/3.0/customization/index.html) is helpful while wanting to adapt EC-CUBE to your personal business needs.
-
-- [Customizing Models](/3.0/customization/model.html)
-- [Customizing Forms](/3.0/customization/form.html)
-- [Customizing Repositories](/3.0/customization/repository.html)
-- [Customizing Factories](/3.0/customization/factory.html)
-- [Customizing Controllers](/3.0/customization/controller.html)
-- [Customizing Validation](/3.0/customization/validation.html)
-- [Customizing Menus](/3.0/customization/menu.html)
-- [Customizing Templates](/3.0/customization/template.html)
-- [Customizing Translations](/3.0/customization/translation.html)
-- [Customizing Flashes](/3.0/customization/flash.html)
-- [Customizing State Machines](/3.0/customization/state_machine.html)
-- [Customizing Grids](/3.0/customization/grid.html)
-
-# EC-CUBE Plugins
-The collection of Sylius Plugins together with the guide on Plugins development. Remember that you can use all the [customization techniques](/3.0/customization/index.html) in Plugins.
-
-- [How to create a plugin for Sylius?](/3.0/plugins/creating_plugin.html)
-
-# The Cookbook
+## I.3. Books & References
+### I.3.a. Books
 [The Cookbook](/3.0/cookbook/index.html) is a collection of specific solutions for specific needs.
+
+
+# II.EC-CUBE 3n
+## II.1. Glance
+### II.1.a. News
+### II.1.b. Techniques
+### II.1.c. Business
+### II.1.d. Case study
+### II.1.e. Testimonial
+
+## II.2. Document
+#### II.2.a. Getting Started
+#### II.2.b. Guides
+## II.3. Books & References
+
 
 <!--
 # The REST API Reference
