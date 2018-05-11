@@ -6,6 +6,7 @@ description: Here is Document site of EC-CUBE. We provide all information such a
 
 ---
 
+<!--
 # I. EC-CUBE 3
 ## I.1. Glance
 - [E-commerce](/ec-cube/3.0/glance/ecommerce.html)
@@ -47,24 +48,54 @@ description: Here is Document site of EC-CUBE. We provide all information such a
 
 ## I.3. Books & References
 ### I.3.a. Books
-[The Cookbook](/ec-cube/3.0/cookbook/index.html) is a collection of specific solutions for specific needs.
 
+[The Cookbook](/ec-cube/3.0/cookbook/index.html) is a collection of specific solutions for specific needs.
+-->
 
 
 # II.EC-CUBE 3n
 ## II.1. Glance
-- [Install](/ec-cube/3.n/glance/install_3n.html)
+- [E-commerce](/ec-cube/3.n/glance/ecommerce.html)
+- [Open Source](/ec-cube/3.n/glance/opensource.html)
+- [Roadmap](/ec-cube/3.n/glance/roadmap.html)
+- [Demo](/ec-cube/3.n/glance/demo.html)
+- [Download](/ec-cube/3.n/glance/download.html)
+- [Trademark & Licenses](/ec-cube/3.n/glance/trademark.html)
 
-### II.1.a. News
+
+### II.1.a. [News](/ec-cube/3.n/glance/news/index.html)
 ### II.1.b. Techniques
-### II.1.c. Business
-### II.1.d. Case study
-### II.1.e. Testimonial
+- [Requirement](/ec-cube/3.n/glance/techniques/index.html)
+
+### II.1.c. [Business](/ec-cube/3.n/glance/business/index.html)
+### II.1.d. [Case study](/ec-cube/3.n/glance/casestudy/index.html)
+### II.1.e. [Testimonial](/ec-cube/3.n/glance/testimonial/index.html)
 
 ## II.2. Document
 #### II.2.a. Getting Started
-#### II.2.b. Guides
+- [Install](/ec-cube/3.n/document/getting/install.html)
+- [Remove](/ec-cube/3.0/document/getting/remove.html)
+- [Update](/ec-cube/3.0/document/getting/update.html)
+
+#### II.2.b. [Guides](/ec-cube/3.n/document/guides/index.html)
+
+- [Routes](/ec-cube/3.n/document/guides/route.html)
+- [Controllers](/ec-cube/3.n/document/guides/controller.html)
+- [Models](/ec-cube/3.n/document/guides/model.html)
+- [Repositories](/ec-cube/3.n/document/guides/repository.html)
+
+- [Forms](/ec-cube/3.n/document/guides/form.html)
+- [Validation](/ec-cube/3.n/document/guides/validation.html)
+
+- [Templates](/ec-cube/3.n/document/guides/template.html)
+- [Translations](/ec-cube/3.n/document/guides/translation.html)
+
+- [Menus](/ec-cube/3.n/document/guides/menu.html)
+
+- [Events & Handles](/ec-cube/3.n/document/guides/eventhandle.html)
+
 - [Plugin](/ec-cube/3.n/document/guides/plugins/index.html)
+- [Plugin-porting](/ec-cube/3.n/document/guides/plugins/porting.html)
 
 ## II.3. Books & References
 
