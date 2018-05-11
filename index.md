@@ -25,9 +25,9 @@ description: Here is Document site of EC-CUBE. We provide all information such a
 
 ## I.2. Document
 #### I.2.a. Getting Started
-- [Install](/ec-cube/3.0/glance/install.html)
-- [Remove](/ec-cube/3.0/glance/remove-html.html)
-- [Update](/ec-cube/3.0/glance/update.html)
+- [Install](/ec-cube/3.0/getting/install.html)
+- [Remove](/ec-cube/3.0/getting/remove-html.html)
+- [Update](/ec-cube/3.0/getting/update.html)
 
 #### I.2.b. [Guides](/ec-cube/3.0/document/guides/index.html)
 - [Models](/ec-cube/3.0/document/guides/model.html)
@@ -42,8 +42,8 @@ description: Here is Document site of EC-CUBE. We provide all information such a
 - [Flashes](/ec-cube/3.0/document/guides/flash.html)
 - [State Machines](/ec-cube/3.0/document/guides/state_machine.html)
 - [Grids](/ec-cube/3.0/document/guides/grid.html)
-- [Proxy](/ec-cube/3.0/glance/proxy.html)
-- [Plugin?](/ec-cube/3.0/document/guides/plugins/creating_plugin.html)
+- [Proxy](/ec-cube/3.0/document/guides/proxy.html)
+- [Plugin](/ec-cube/3.0/document/guides/plugins/creating_plugin.html)
 
 ## I.3. Books & References
 ### I.3.a. Books
@@ -53,7 +53,7 @@ description: Here is Document site of EC-CUBE. We provide all information such a
 
 # II.EC-CUBE 3n
 ## II.1. Glance
-- [Install](/ec-cube/3.0/glance/install_3n.html)
+- [Install](/ec-cube/3.n/glance/install_3n.html)
 
 ### II.1.a. News
 ### II.1.b. Techniques
