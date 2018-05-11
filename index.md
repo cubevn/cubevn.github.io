@@ -6,8 +6,9 @@ description: Here is Document site of EC-CUBE. We provide all information such a
 
 ---
 
+
+# I. EC-CUBE 3.0
 <!--
-# I. EC-CUBE 3
 ## I.1. Glance
 - [E-commerce](/ec-cube/3.0/glance/ecommerce.html)
 - [Open Source](/ec-cube/3.0/glance/opensource.html)
