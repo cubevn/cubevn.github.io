@@ -8,12 +8,12 @@ description: Here is Document site of EC-CUBE. We provide all information such a
 
 # I. EC-CUBE 3
 ## I.1. Glance
-- [システム要件](/3.0/glance/requirement.html)
-- [インストール方法](/3.0/glance/install.html)
-- [インストール方法(3.n)](/3.0/glance/install_3n.html)
-- [プロキシサーバの設定](/3.0/glance/proxy.html)
-- [インストール時にURLからhtmlを無くす](/3.0/glance/remove-html.html)
-- [EC-CUBE本体のバージョンアップ](/3.0/glance/update.html)
+- [システム要件](/ec-cube/3.0/glance/requirement.html)
+- [インストール方法](/ec-cube/3.0/glance/install.html)
+- [インストール方法(3.n)](/ec-cube/3.0/glance/install_3n.html)
+- [プロキシサーバの設定](/ec-cube/3.0/glance/proxy.html)
+- [インストール時にURLからhtmlを無くす](/ec-cube/3.0/glance/remove-html.html)
+- [EC-CUBE本体のバージョンアップ](/ec-cube/3.0/glance/update.html)
 
 ### I.1.a. News
 ### I.1.b. Techniques
@@ -24,25 +24,25 @@ description: Here is Document site of EC-CUBE. We provide all information such a
 ## I.2. Document
 #### I.2.a. Getting Started
 #### I.2.b. Guides
-The [Guide](/3.0/document/guides/index.html) is helpful while wanting to adapt EC-CUBE to your personal business needs.
+The [Guide](/ec-cube/3.0/document/guides/index.html) is helpful while wanting to adapt EC-CUBE to your personal business needs.
 
-- [Customizing Models](/3.0/document/guides/model.html)
-- [Customizing Forms](/3.0/document/guides/form.html)
-- [Customizing Repositories](/3.0/document/guides/repository.html)
-- [Customizing Factories](/3.0/document/guides/factory.html)
-- [Customizing Controllers](/3.0/document/guides/controller.html)
-- [Customizing Validation](/3.0/document/guides/validation.html)
-- [Customizing Menus](/3.0/document/guides/menu.html)
-- [Customizing Templates](/3.0/document/guides/template.html)
-- [Customizing Translations](/3.0/document/guides/translation.html)
-- [Customizing Flashes](/3.0/document/guides/flash.html)
-- [Customizing State Machines](/3.0/document/guides/state_machine.html)
-- [Customizing Grids](/3.0/document/guides/grid.html)
-- [How to create a plugin?](/3.0/document/guides/plugins/creating_plugin.html)
+- [Customizing Models](/ec-cube/3.0/document/guides/model.html)
+- [Customizing Forms](/ec-cube/3.0/document/guides/form.html)
+- [Customizing Repositories](/ec-cube/3.0/document/guides/repository.html)
+- [Customizing Factories](/ec-cube/3.0/document/guides/factory.html)
+- [Customizing Controllers](/ec-cube/3.0/document/guides/controller.html)
+- [Customizing Validation](/ec-cube/3.0/document/guides/validation.html)
+- [Customizing Menus](/ec-cube/3.0/document/guides/menu.html)
+- [Customizing Templates](/ec-cube/3.0/document/guides/template.html)
+- [Customizing Translations](/ec-cube/3.0/document/guides/translation.html)
+- [Customizing Flashes](/ec-cube/3.0/document/guides/flash.html)
+- [Customizing State Machines](/ec-cube/3.0/document/guides/state_machine.html)
+- [Customizing Grids](/ec-cube/3.0/document/guides/grid.html)
+- [How to create a plugin?](/ec-cube/3.0/document/guides/plugins/creating_plugin.html)
 
 ## I.3. Books & References
 ### I.3.a. Books
-[The Cookbook](/3.0/cookbook/index.html) is a collection of specific solutions for specific needs.
+[The Cookbook](/ec-cube/3.0/cookbook/index.html) is a collection of specific solutions for specific needs.
 
 
 # II.EC-CUBE 3n
@@ -61,49 +61,49 @@ The [Guide](/3.0/document/guides/index.html) is helpful while wanting to adapt E
 
 <!--
 # The REST API Reference
-[The API guide](/3.0/api/index.html) covers the REST API of Sylius platform.
+[The API guide](/ec-cube/3.0/api/index.html) covers the REST API of Sylius platform.
 
-- [Introduction to Sylius REST API](/3.0/api/introduction.html)
-- [Authorization](/3.0/api/authorization.html)
-- [Admin Users API](/3.0/api/admin_users.html)
-- [Carts API](/3.0/api/carts.html)
-- [Channels API](/3.0/api/channels.html)
-- [Checkout API](/3.0/api/checkouts.html)
-- [Countries API](/3.0/api/countries.html)
-- [Currencies API](/3.0/api/currencies.html)
-- [Customers API](/3.0/api/customers.html)
-- [Exchange Rates API](/3.0/api/exchange_rate.html)
-- [Locales API](/3.0/api/locales.html)
-- [Orders API](/3.0/api/orders.html)
-- [Payment Methods API](/3.0/api/payment_methods.html)
-- [Payments API](/3.0/api/payment.html)
-- [Product Attributes API](/3.0/api/product_attributes.html)
-- [Product Options API](/3.0/api/product_options.html)
-- [Product Reviews API](/3.0/api/product_reviews.html)
-- [Product Variants API](/3.0/api/product_variants.html)
-- [Products API](/3.0/api/product.html)
-- [Promotion Coupons API](/3.0/api/promotion_coupons.html)
-- [Promotions API](/3.0/api/promotions.html)
-- [Provinces API](/3.0/api/provinces.html)
-- [Shipments API](/3.0/api/shipments.html)
-- [Shipping Categories API](/3.0/api/shipping_categories.html)
-- [Shipping Methods API](/3.0/api/shipping_methods.html)
-- [Tax Categories API](/3.0/api/tax_categories.html)
-- [Tax Rates API](/3.0/api/tax_rates.html)
-- [Taxons API](/3.0/api/taxons.html)
-- [Zones API](/3.0/api/zones.html)
-- [Sorting and filtration](/3.0/api/sorting_filtration.html)
+- [Introduction to Sylius REST API](/ec-cube/3.0/api/introduction.html)
+- [Authorization](/ec-cube/3.0/api/authorization.html)
+- [Admin Users API](/ec-cube/3.0/api/admin_users.html)
+- [Carts API](/ec-cube/3.0/api/carts.html)
+- [Channels API](/ec-cube/3.0/api/channels.html)
+- [Checkout API](/ec-cube/3.0/api/checkouts.html)
+- [Countries API](/ec-cube/3.0/api/countries.html)
+- [Currencies API](/ec-cube/3.0/api/currencies.html)
+- [Customers API](/ec-cube/3.0/api/customers.html)
+- [Exchange Rates API](/ec-cube/3.0/api/exchange_rate.html)
+- [Locales API](/ec-cube/3.0/api/locales.html)
+- [Orders API](/ec-cube/3.0/api/orders.html)
+- [Payment Methods API](/ec-cube/3.0/api/payment_methods.html)
+- [Payments API](/ec-cube/3.0/api/payment.html)
+- [Product Attributes API](/ec-cube/3.0/api/product_attributes.html)
+- [Product Options API](/ec-cube/3.0/api/product_options.html)
+- [Product Reviews API](/ec-cube/3.0/api/product_reviews.html)
+- [Product Variants API](/ec-cube/3.0/api/product_variants.html)
+- [Products API](/ec-cube/3.0/api/product.html)
+- [Promotion Coupons API](/ec-cube/3.0/api/promotion_coupons.html)
+- [Promotions API](/ec-cube/3.0/api/promotions.html)
+- [Provinces API](/ec-cube/3.0/api/provinces.html)
+- [Shipments API](/ec-cube/3.0/api/shipments.html)
+- [Shipping Categories API](/ec-cube/3.0/api/shipping_categories.html)
+- [Shipping Methods API](/ec-cube/3.0/api/shipping_methods.html)
+- [Tax Categories API](/ec-cube/3.0/api/tax_categories.html)
+- [Tax Rates API](/ec-cube/3.0/api/tax_rates.html)
+- [Taxons API](/ec-cube/3.0/api/taxons.html)
+- [Zones API](/ec-cube/3.0/api/zones.html)
+- [Sorting and filtration](/ec-cube/3.0/api/sorting_filtration.html)
 
 
 # The BDD Guide
-In [the BDD Guide](/3.0/bdd/index.html) you will learn how to write clean and reusable features, contexts and pages using Behat.
+In [the BDD Guide](/ec-cube/3.0/bdd/index.html) you will learn how to write clean and reusable features, contexts and pages using Behat.
 
-- [Basic Usage](/3.0/bdd/basic_usage.html)
-- [Introduction to containers](/3.0/bdd/introduction_to_containers.html)
-- [How to add a new context?](/3.0/bdd/how_to_add_new_context.html)
-- [How to add a new page object?](/3.0/bdd/how_to_add_new_page.html)
-- [How to define a new suite?](/3.0/bdd/how_to_define_new_suite.html)
-- [How to use transformers?](/3.0/bdd/how_to_use_transformers.html)
+- [Basic Usage](/ec-cube/3.0/bdd/basic_usage.html)
+- [Introduction to containers](/ec-cube/3.0/bdd/introduction_to_containers.html)
+- [How to add a new context?](/ec-cube/3.0/bdd/how_to_add_new_context.html)
+- [How to add a new page object?](/ec-cube/3.0/bdd/how_to_add_new_page.html)
+- [How to define a new suite?](/ec-cube/3.0/bdd/how_to_define_new_suite.html)
+- [How to use transformers?](/ec-cube/3.0/bdd/how_to_use_transformers.html)
 
 
 
