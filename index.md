@@ -64,7 +64,7 @@ description: Here is Document site of EC-CUBE. We provide all information such a
 ## II.2. Document
 #### II.2.a. Getting Started
 #### II.2.b. Guides
-- [Plugin](/ec-cube/3.n/document/guides/plugins/creating_plugin.html)
+- [Plugin](/ec-cube/3.n/document/guides/plugins/index.html)
 
 ## II.3. Books & References
 

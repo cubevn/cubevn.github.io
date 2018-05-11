@@ -104,6 +104,7 @@ EC-CUBE3n Root Directory
 ```
 
 * config.yml
+
 ```
 # Required elements
 name: [plugin name]
@@ -115,6 +116,7 @@ version: 1.0.0
 ```
 
 * PluginManager.php
+
 ```
 class PluginManager extends AbstractPluginManager
 {
@@ -163,6 +165,7 @@ class PluginManager extends AbstractPluginManager
 
 ### Optional elements
 * [Entity & Repository](https://www.doctrine-project.org/projects/doctrine-orm/en/2.6/reference/working-with-objects.html) [[more...]](https://symfony.com/doc/3.4/doctrine.html)
+
 ```
 EC-CUBE3n Root Directory
 ├──    app
@@ -179,6 +182,7 @@ EC-CUBE3n Root Directory
 
     
 * [Event](https://symfony.com/doc/3.4/event_dispatcher.html)
+
 ```
 EC-CUBE3n Root Directory
 ├──    app
@@ -188,6 +192,7 @@ EC-CUBE3n Root Directory
 │       │      │     │    ├── [Name].php             ★Declare handle class
 │       │      │     ├── [Name]Event.php             ★Will register listeners for events
 ```
+
 ```
 class [Name]Event implements EventSubscriberInterface
 {
@@ -219,6 +224,7 @@ class [Name]Event implements EventSubscriberInterface
 * Service
 
 * [Form Type](https://symfony.com/doc/3.4/forms.html) & [Form Extension](https://symfony.com/doc/3.4/form/create_form_type_extension.html)
+
 ```
 EC-CUBE3n Root Directory
 ├──    app
@@ -230,6 +236,7 @@ EC-CUBE3n Root Directory
 ```
 
 * [Template](https://symfony.com/doc/3.4/templating.html)
+
 ```
 EC-CUBE3n Root Directory
 ├──    app
@@ -251,6 +258,7 @@ EC-CUBE3n Root Directory
 ```
 
 * [Automation test- phpUnit](https://symfony.com/doc/3.4/components/phpunit_bridge.html)
+
 ```
 EC-CUBE3n Root Directory
 ├──    app
@@ -263,6 +271,7 @@ EC-CUBE3n Root Directory
 ```
 
 * Navigation
+
 ```
 EC-CUBE3n Root Directory
 ├──    app
@@ -331,6 +340,7 @@ EC-CUBE3n Root Directory
 
 ## IV. Database
  - Schema
+ 
  ```
  EC-CUBE3n Root Directory
  ├──    app
@@ -343,6 +353,7 @@ EC-CUBE3n Root Directory
  ```
 
  - Migration
+ 
  ```
  EC-CUBE3n Root Directory
  ├──    app
@@ -354,7 +365,9 @@ EC-CUBE3n Root Directory
  │       │      │     │    │    │    ├── Version[date].php       ☆3.0: for install & update    
                                                                 ★3.n: removed    
  ```
+
 ## V. Navigation
+
 ```
 EC-CUBE3n Root Directory
 ├──    app
