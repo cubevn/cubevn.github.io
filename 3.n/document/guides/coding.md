@@ -9,7 +9,7 @@ title: Code standard
 
 ### Rules
 
-* URL：Không thêm / vào cuối URL
+* URL：not append / at the end of URL
   + `https://example.com`
   + `https://example.com/product`
   + `https://example.com/product/new`
@@ -19,19 +19,19 @@ title: Code standard
     - Trong trường hợp edit thì nếu không truyền tham số sẽ phát sinh Exception(BadRequest)
     - Trong trường hợp edit thì dù truyền tham số mà tham số đó không tồn tại sẽ phát sinh Exception(NotFound)
 
-* Tên File, tên Folder
-  + Về cơ bản sử dụng UpperCamel như dưới đây
+* FileName, FolderName
+  + Follow of UpperCamel :
     - `ControllerClassName.php`
     - `FormNameType.php`
     - `EntityName.php` `Master/EntityName.php`
-  + Ngoại trừ các thư mục đặc biệt như data, app
+  + Except these special folders:  data, app
 
-* Tên template (chữ thường cách nhau bởi _ )
+* Template name (seperation with snack _ )
   + `TemplateDir/template_name.twig`
 
 * Code PHP
-  + Theo như [Symfony code standard](http://symfony.com/doc/current/contributing/code/standards.html)
-  + Code mẫu(nhìn là có thể nắm gần hết quy tắc code)
+  + Base on [Symfony code standard](http://symfony.com/doc/current/contributing/code/standards.html)
+  + Code Standard (as demo code)
 
 ```
 <?php
@@ -140,9 +140,11 @@ class FooBar
 ```
 
   +  personalized of EC-CUBE
-    + Với biến `entity` thì dùng UpperCamel
-    + Với tham số truyền trong khi render twig thì nếu là entity thì như trên, còn không thì chữ thường cách nhau bởi _
-  + Code mẫu
+    + Variable in `entity` using UpperCamel
+    + parammetters in  render twig :
+       - Entity : UpperCamel
+       - Other variables :  Snack with _
+  + Code standard
 
 ```php
 
@@ -191,12 +193,12 @@ class HogeController
 
 * Database
   + Theo như https://github.com/EC-CUBE/ec-cube/issues/210
-    - Tên bảng chữ thường cách nhau bởi _
-    - bảng dữ liệu thì prefix là dtb_
-    - bảng master thì prefix là mtb_
-    - Flag thì để kiểu smallint
+    - Table name using snack _
+    - prefix dtb_
+    - prefix mtb_
+    - Flag is smallint
 
-* Vị trí của dấu chấm phẩy
+* Position of semi-colon
 
 ```php
 $builder
@@ -211,13 +213,13 @@ $array = array(
 ); // here
 ```
 
-* Về việc sử dụng dấu \ cùng với namespace
-    + Sử dụng khi
+* Using \ with namespace
+    + Using in
         - muốn dùng những namespace không được định nghĩa bởi câu lệnh use
-        - Các namespace chuẩn của PHP như là  `new \Datetime()`
-    + Không sử dụng khi
+        - PHP standard namespace : `new \Datetime()`
+    + Not use in
         - `use Namespace`
-        - Đối với entity `Eccube\Entity\Xxx`
+        - With entity `Eccube\Entity\Xxx`
           ex: `$app['orm.em']->getRepository('Eccube\Entity\Xxx');`
 
 
