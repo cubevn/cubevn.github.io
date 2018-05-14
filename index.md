@@ -80,6 +80,8 @@ description: Here is Document site of EC-CUBE. We provide all information such a
 
 #### II.2.b. [Guides](/ec-cube/3.n/document/guides/index.html)
 
+- [Coding Style](/ec-cube/3.n/document/guides/coding.html)
+
 - [Routes](/ec-cube/3.n/document/guides/route.html)
 - [Controllers](/ec-cube/3.n/document/guides/controller.html)
 - [Models](/ec-cube/3.n/document/guides/model.html)
