@@ -105,6 +105,12 @@ description: Here is Document site of EC-CUBE. We provide all information such a
 
 # III.Community
 ## III.a Meetup
+
+- [First meetup](/ec-cube/3.n/community/meetup/20170918.html)
+
+- [Plugin demo for 3.0](/ec-cube/3.n/community/meetup/20171218.html)
+
+
 ## III.b Support
 
 <!--
