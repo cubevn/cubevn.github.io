@@ -104,11 +104,11 @@ description: Here is Document site of EC-CUBE. We provide all information such a
 
 
 # III.Community
-## III.a Meetup
+## [III.a Meetup](/ec-cube/community/meetup/index.html)
 
-- [First meetup](/ec-cube/3.n/community/meetup/20170918.html)
+- [First meetup](/ec-cube/community/meetup/20170918.html)
 
-- [Plugin demo for 3.0](/ec-cube/3.n/community/meetup/20171218.html)
+- [Plugin demo for 3.0](/ec-cube/community/meetup/20171218.html)
 
 
 ## III.b Support
