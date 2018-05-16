@@ -85,9 +85,9 @@ EC-CUBE3n Root Directory
 1. Template : Confuse 
  - New way to adding or changing content in template: 
 
-```
-   "short block" : like this '{{ eccube_block_hello({'name':'EC-CUBE'}) }}'.
-```
+````
+   "short block" : like this '\{\{ eccube_block_hello({'name':'EC-CUBE'}) \}\}'.
+````
 
  - Listen event of Admin template:
  
