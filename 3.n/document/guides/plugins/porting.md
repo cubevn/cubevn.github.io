@@ -94,58 +94,58 @@ public function index(Request $request)
 </tr>
 <tr>
 <td>
- <pre lang="php">
- $app['eccube.plugin.xxx']
- </pre>
+<pre lang="php">
+$app['eccube.plugin.xxx']
+</pre>
 </td>
 <td>
 <pre lang="php">
- public function __construct(xxxRepository $xxxRepository)
- {
-     $this->xxxRepository = $xxxRepository;
- }
- use: $this->configRepository
+public function __construct(xxxRepository $xxxRepository)
+{
+$this->xxxRepository = $xxxRepository;
+}
+use: $this->configRepository
 </pre>
 </td>
 </tr>
 <tr>
 <td>
-   <pre lang="php">
-   $app['form.factory']
-   </pre>
-</td>
-<td>
-  <pre lang="php">
-   $this->formFactory (in AbstractController)
-  </pre>
-</td>
-</tr>
-<tr>
-<td>
- <pre lang="php">
- $app['eccube.plugin.xxx']
- </pre>
+<pre lang="php">
+$app['form.factory']
+</pre>
 </td>
 <td>
 <pre lang="php">
- public function __construct(xxxRepository $xxxRepository)
- {
-     $this->xxxRepository = $xxxRepository;
- }
- use: $this->xxxRepository
+$this->formFactory (in AbstractController)
 </pre>
 </td>
 </tr>
 <tr>
 <td>
-   <pre lang="php">
-   $app['orm.em']
-   </pre>
+<pre lang="php">
+$app['eccube.plugin.xxx']
+</pre>
 </td>
 <td>
-  <pre lang="php">
-  $this->entityManager (in AbstractController)
-  </pre>
+<pre lang="php">
+public function __construct(xxxRepository $xxxRepository)
+{
+$this->xxxRepository = $xxxRepository;
+}
+use: $this->xxxRepository
+</pre>
+</td>
+</tr>
+<tr>
+<td>
+<pre lang="php">
+$app['orm.em']
+</pre>
+</td>
+<td>
+<pre lang="php">
+$this->entityManager (in AbstractController)
+</pre>
 </td>
 </tr>
 <tr>
@@ -341,14 +341,10 @@ services:
 <tr><th>3.0</th><th>3.n/4</th></tr>
 <tr>
 <td>
-<pre>
 {% extends 'default_frame.twig' %}
-</pre>
 </td>
 <td>
-<pre>
 {% extends '@admin/default_frame.twig' %}
-</pre>
 </td>
 </tr>
 </table>
