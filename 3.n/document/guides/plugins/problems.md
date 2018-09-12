@@ -3,7 +3,7 @@
 1. Template : Confuse
  - New way to adding or changing content in template: Why use `ecccube_block_xxx` while you can use the code snippet?
 ```
-{{ eccube_block_hello({'name':'EC-CUBE'}) }} vs addSnippet
+eccube_block_hello({'name':'EC-CUBE'}) vs addSnippet
 ```
 
 
