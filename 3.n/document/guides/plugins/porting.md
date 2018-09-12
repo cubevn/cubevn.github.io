@@ -335,23 +335,15 @@ parameters:
 services:
 ```
 2. template:
-
+You change extend from:
 <table>
 <tr><th>3.0</th><th>3.n/4</th></tr>
 <tr>
 <td>
-
-<pre>
-{% extends 'default_frame.twig' %}
-</pre>
-
+default_frame.twig
 </td>
 <td>
-
-
-{% extends '@admin/default_frame.twig' %}
-
-
+@admin/default_frame.twig
 </td>
 </tr>
 </table>
