@@ -71,7 +71,7 @@
 - Extend AbstractController, many available variables are useful for development.
 - By eliminating ServiceProvider, routing in the controller is easy to monitor. Using: @Route.
 - You can injection multiple services/repositories by construct function.
-- Many annotation you can use in controller: @Method, @Route, @Template, ...
+- Many annotation you can use in controller: @Route, @Template, ...
 
 <table>
 <tr><th>3.0</th><th>3.n/4</th></tr>
@@ -173,12 +173,12 @@ return $app->render(
 </td>
 <td>
 <pre lang="php">
-if you use @Template, then
+// if you use @Template, then
 return [
    'form' => $form->createView(),
 ];
 ---
-if you don't use it,
+// if you don't use it,
 return $this->render(
     '@ProductPriority/admin/config.twig',
     [
@@ -546,9 +546,12 @@ class SamplePaymentNav implements \Eccube\Common\EccubeNav
     {
         return [
             'order' => [
-                'id' => 'sample_payment_admin_payment_status',
-                'name' => 'sample_payment.admin.nav.payment_list',
-                'url' => 'sample_payment_admin_payment_status',
+                'children' => [
+                    'sample_payment_admin_payment_status' => [
+                        'name' => 'sample_payment.admin.nav.payment_list',
+                        'url' => 'sample_payment_admin_payment_status',
+                    ]
+                ]
             ],
         ];
     }
@@ -574,7 +577,7 @@ public function enable($config, $app)
 </td>
 <td>
 <pre>
-public function enable($config = [], $app = null, ContainerInterface $container)
+public function enable($config, ContainerInterface $container)
 </pre>
 </td>
 </tr>
