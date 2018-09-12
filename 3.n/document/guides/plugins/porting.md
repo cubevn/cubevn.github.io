@@ -333,19 +333,14 @@ parameters:
 
 # コンテナ定義
 services:
-
 ```
 2. template:
 
 <table>
 <tr><th>3.0</th><th>3.n/4</th></tr>
 <tr>
-<td>
-{% extends 'default_frame.twig' %}
-</td>
-<td>
-{% extends '@admin/default_frame.twig' %}
-</td>
+<td><pre>{% extends 'default_frame.twig' %}</pre></td>
+<td><pre>{% extends '@admin/default_frame.twig' %}</pre></td>
 </tr>
 </table>
 
