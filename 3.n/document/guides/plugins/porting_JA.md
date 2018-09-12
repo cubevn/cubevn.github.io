@@ -71,7 +71,7 @@
 - AbstractControllerを拡張すると、開発に役立つ変数が多く使用できます。
 - ServiceProviderを削除することで、コントローラ内のルーティングが簡単に監視できます。 例：@Route。
 - Construct機能で複数のサービス/リポジトリを注入することができます。
-- Controllerで使用できるアノテーションが多くあります。例：@Method、@ Route、@Template、...
+- Controllerで使用できるアノテーションが多くあります。例：@Route、@Template、...
 
 <table>
 <tr><th>3.0</th><th>4.0</th></tr>
@@ -342,10 +342,10 @@ services:
 <tr><th>3.0</th><th>4.0</th></tr>
 <tr>
 <td>
-{% extends 'default_frame.twig' %}
+'default_frame.twig'
 </td>
 <td>
-{% extends '@admin/default_frame.twig' %}
+'@admin/default_frame.twig'
 </td>
 </tr>
 </table>
@@ -548,9 +548,12 @@ class SamplePaymentNav implements \Eccube\Common\EccubeNav
     {
         return [
             'order' => [
-                'id' => 'sample_payment_admin_payment_status',
-                'name' => 'sample_payment.admin.nav.payment_list',
-                'url' => 'sample_payment_admin_payment_status',
+                'children' => [
+                    'sample_payment_admin_payment_status' => [
+                        'name' => 'sample_payment.admin.nav.payment_list',
+                        'url' => 'sample_payment_admin_payment_status',
+                    ]
+                ]
             ],
         ];
     }
@@ -576,7 +579,7 @@ public function enable($config, $app)
 </td>
 <td>
 <pre>
-public function enable($config = [], $app = null, ContainerInterface $container)
+public function enable($config, ContainerInterface $container)
 </pre>
 </td>
 </tr>
