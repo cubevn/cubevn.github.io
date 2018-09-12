@@ -341,16 +341,16 @@ services:
 <tr>
 <td>
 
-```html
+<pre>
 {% extends 'default_frame.twig' %}
-```
+</pre>
 
 </td>
 <td>
 
-```html
+
 {% extends '@admin/default_frame.twig' %}
-```
+
 
 </td>
 </tr>
