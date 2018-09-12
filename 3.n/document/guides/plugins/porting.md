@@ -342,14 +342,14 @@ services:
 <td>
 
 ```
-{% extends 'default_frame.twig' %}
+extends 'default_frame.twig'
 ```
 
 </td>
 <td>
 
 ```
-{% extends '@admin/default_frame.twig' %}
+extends '@admin/default_frame.twig'
 ```
 
 </td>
