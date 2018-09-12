@@ -339,8 +339,18 @@ services:
 <table>
 <tr><th>3.0</th><th>3.n/4</th></tr>
 <tr>
-<td><pre>{% extends 'default_frame.twig' %}</pre></td>
-<td><pre>{% extends '@admin/default_frame.twig' %}</pre></td>
+<td>
+
+```php
+{% extends 'default_frame.twig' %}
+```
+</td>
+<td>
+
+```php
+{% extends '@admin/default_frame.twig' %}
+```
+</td>
 </tr>
 </table>
 
