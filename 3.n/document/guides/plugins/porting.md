@@ -341,15 +341,17 @@ services:
 <tr>
 <td>
 
-```php
+```
 {% extends 'default_frame.twig' %}
 ```
+
 </td>
 <td>
 
-```php
+```
 {% extends '@admin/default_frame.twig' %}
 ```
+
 </td>
 </tr>
 </table>
